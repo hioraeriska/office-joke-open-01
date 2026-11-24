@@ -10,9 +10,10 @@ JOKE = "Our team building exercise was replying-all to an email that said 'pleas
 
 
 def resolve_output_dir():
-    out = os.environ.get("MAKEFUN_OUTPUT_DIR") or os.environ.get("OUTPUT_DIR")
-    if out:
-        return Path(out)
+    for key in ("MAKEFUN_OUTPUT_DIR", "OUTPUT_DIR"):
+        out = os.environ.get(key)
+        if out and out.strip():
+            return Path(out.strip())
     return Path("/output")
 
 
