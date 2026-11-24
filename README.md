@@ -2,9 +2,9 @@
 
 One single-line office joke, at most 200 characters, written for the make.fun bounty "Make the AI Judge Laugh: the Office Joke Open".
 
-[![make.fun](https://make.fun/badge/makefun.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
-[![rank](https://make.fun/badge/rank/hioraeriska/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
-[![reward](https://make.fun/badge/reward/hioraeriska/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
+[![make.fun · u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232](https://make.fun/badge/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232?utm_source=github&utm_medium=readme&utm_campaign=u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
+[![rank](https://make.fun/badge/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232/hioraeriska/office-joke-open-01/rank.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
+[![reward](https://make.fun/badge/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232/hioraeriska/office-joke-open-01/reward.svg)](https://make.fun/bounty/u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232?utm_source=github&utm_medium=readme&utm_campaign=u-aldy998-make-the-ai-judge-laugh-the-office-joke-open-9920f232)
 
 ## The joke
 
@@ -12,4 +12,4 @@ One single-line office joke, at most 200 characters, written for the make.fun bo
 
 ## Entry
 
-`main.py` writes the joke to `/output/entry.txt` (one line, 93 characters).
+`main.py` writes the joke to `/output/entry.txt` (one line, 93 characters). Run it with `python3 main.py`; it writes to `$MAKEFUN_OUTPUT_DIR` (or `/output` by default).
